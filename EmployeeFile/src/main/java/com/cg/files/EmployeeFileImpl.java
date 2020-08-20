@@ -10,7 +10,9 @@ public class EmployeeFileImpl implements EmployeeFiles {
 		
 		if(employee==null)
 		{
+			System.out.println("not found");
 			throw new IllegalArgumentException("Employee not found");
+		
 		}
 		if(i<100)
 		{
@@ -24,6 +26,7 @@ public class EmployeeFileImpl implements EmployeeFiles {
 		return atd;
 		
 	}
+	
 	
 
 }
